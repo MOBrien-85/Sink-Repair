@@ -1,0 +1,28 @@
+{
+  "plumbers": [
+    {
+      "id": 1,
+      "name": "Maude"
+    },
+    {
+      "id": 2,
+      "name": "Merle"
+    }
+  ],
+  "completions": [],
+  "requests": [
+    {
+      "description": "my squatty potty is wet",
+      "address": "here",
+      "budget": "3.50",
+      "neededBy": "2022-05-21",
+      "id": 1
+    },
+    {
+      "requestId": "1",
+      "plumberId": "1",
+      "date_created": 1653078940199,
+      "id": 2
+    }
+  ]
+}
