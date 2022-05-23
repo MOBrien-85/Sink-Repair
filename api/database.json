@@ -9,7 +9,32 @@
       "name": "Merle"
     }
   ],
-  "completions": [],
+  "completions": [
+    {
+      "requestId": "1",
+      "plumberId": "1",
+      "date_created": 1653323800346,
+      "id": 1
+    },
+    {
+      "requestId": "1",
+      "plumberId": "1",
+      "date_created": 1653323803237,
+      "id": 2
+    },
+    {
+      "requestId": "1",
+      "plumberId": "1",
+      "date_created": 1653323805477,
+      "id": 3
+    },
+    {
+      "requestId": "1",
+      "plumberId": "1",
+      "date_created": 1653328888741,
+      "id": 4
+    }
+  ],
   "requests": [
     {
       "description": "my squatty potty is wet",
@@ -19,9 +44,10 @@
       "id": 1
     },
     {
-      "requestId": "1",
-      "plumberId": "1",
-      "date_created": 1653078940199,
+      "description": "my son flushed his sister down the terlet",
+      "address": "the shitter!",
+      "budget": "3",
+      "neededBy": "2022-05-25",
       "id": 2
     }
   ]

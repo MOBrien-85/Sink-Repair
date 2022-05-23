@@ -1,4 +1,4 @@
-import { getRequests, deleteRequest, sendRequest, getPlumbers } from "./dataAccess.js"
+import { getRequests, deleteRequest, getPlumbers, fetchRequests } from "./dataAccess.js"
 
 // listen for the delete button!
 const mainContainer = document.querySelector("#container")
@@ -77,7 +77,7 @@ mainContainer.addEventListener(
                 to the `completions` resource for your API. Send the
                 completion object as a parameter.
              */
-            sendRequest(completion)
+            fetchRequests(completion)
         }
     }
 )
